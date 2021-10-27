@@ -78,6 +78,22 @@ header {
     transition: 300ms;
 }
 
+#main_qs{
+    display: flex;
+    justify-content: center; /*Centralização horizontal*/
+    align-items: stretch; /*filhos com 100% da altura do pai*/
+    min-height: 600px; /* altura mínima */
+    background-color: #555555;
+}
+
+#footer_qs{
+    display: flex;
+    justify-content: center; /*Centralização horizontal*/
+    align-items: center; /*Centralização vertical*/
+    background-color: var(--cor-fundo-clara);
+    min-height: 50px; /* altura mínima */
+}
+
 main {
     display: flex;
     justify-content: center; /*Centralização horizontal*/
